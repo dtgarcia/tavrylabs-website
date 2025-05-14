@@ -72,7 +72,11 @@ function App() {
       to="/projects/arc-core"
       className="bg-zinc-900 p-4 rounded shadow-md border border-transparent hover:border-arcblue hover:shadow-arc-glow transition-all duration-300"
     >
-      <div className="w-full h-48 bg-zinc-800 rounded mb-4"></div>
+      <img
+        src="/images/arc-core.jpeg"
+        alt="ARC Core"
+        className="w-full h-48 object-cover object-center rounded mb-4"
+      />
       <h4 className="text-xl font-semibold">ARC Core</h4>
       <span className="text-xs text-yellow-400 uppercase tracking-wide">Prototyping</span>
       <p className="text-sm text-zinc-400 mt-2">
@@ -98,7 +102,11 @@ function App() {
       to="/projects/exo-arm"
       className="bg-zinc-900 p-4 rounded shadow-md border border-transparent hover:border-arcblue hover:shadow-arc-glow transition-all duration-300"
     >
-      <div className="w-full h-48 bg-zinc-800 rounded mb-4"></div>
+      <img
+        src="/images/exo-arm.jpeg"
+        alt="EXO Arm"
+        className="w-full h-48 object-cover object-center rounded mb-4"
+      />
       <h4 className="text-xl font-semibold">EXO Arm</h4>
       <span className="text-xs text-red-400 uppercase tracking-wide">Research</span>
       <p className="text-sm text-zinc-400 mt-2">
@@ -108,6 +116,7 @@ function App() {
 
   </div>
 </section>
+
 
     </div>
   );
