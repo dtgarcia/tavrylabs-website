@@ -1,9 +1,9 @@
-
 import { Link } from "react-router-dom";
 
 function App() {
   return (
     <div className="min-h-screen bg-black text-white font-sans">
+      {/* Header */}
       <header className="bg-gradient-to-b from-zinc-900 to-black p-6 text-center shadow-md sticky top-0 z-50">
         <Link to="/" className="text-5xl font-extrabold tracking-wide hover:opacity-90">
           TAVRY LABS
@@ -29,6 +29,7 @@ function App() {
         </div>
       </header>
 
+      {/* Intro Section */}
       <section className="flex flex-col md:flex-row items-center justify-between px-8 md:px-20 py-16 gap-8">
         <div className="max-w-xl">
           <h2 className="text-2xl font-bold mb-4">
@@ -43,24 +44,51 @@ function App() {
         </div>
       </section>
 
+      {/* Projects Section */}
       <section id="projects" className="px-8 md:px-20 py-10">
         <h3 className="text-3xl font-bold text-center mb-8">Projects</h3>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+          {/* ARC Bench */}
+          <div className="bg-zinc-900 p-4 rounded shadow hover:shadow-lg">
+            <img
+              src="/images/arc-bench.jpeg"
+              alt="ARC Bench"
+              className="w-full h-48 object-cover object-center rounded mb-4"
+            />
+            <h4 className="text-xl font-semibold">ARC Bench</h4>
+            <p className="text-sm text-zinc-400">
+              Custom-built power bench and housing prototype
+            </p>
+          </div>
+
+          {/* ARC Core */}
           <div className="bg-zinc-900 p-4 rounded shadow hover:shadow-lg">
             <div className="w-full h-48 bg-zinc-800 rounded mb-4"></div>
             <h4 className="text-xl font-semibold">ARC Core</h4>
-            <p className="text-sm text-zinc-400">Multi-functional diagnostics and testing bench</p>
+            <p className="text-sm text-zinc-400">
+              Advanced diagnostics + voltage test platform
+            </p>
           </div>
-          <div className="bg-zinc-900 p-4 rounded shadow hover:shadow-lg">
-          <img
-  src="/images/arc-bench.jpeg"
-  alt="ARC Core"
-  className="w-full h-48 object-cover rounded mb-4"
-/>
 
-            <h4 className="text-xl font-semibold">Tavry Core</h4>
-            <p className="text-sm text-zinc-400">Wearable arc reactor-style power system</p>
+          {/* Daedalus AI */}
+          <div className="bg-zinc-900 p-4 rounded shadow hover:shadow-lg">
+            <div className="w-full h-48 bg-zinc-800 rounded mb-4"></div>
+            <h4 className="text-xl font-semibold">Daedalus AI</h4>
+            <p className="text-sm text-zinc-400">
+              Core AI designed to unify and manage Tavry systems
+            </p>
           </div>
+
+          {/* EXO Arm */}
+          <div className="bg-zinc-900 p-4 rounded shadow hover:shadow-lg">
+            <div className="w-full h-48 bg-zinc-800 rounded mb-4"></div>
+            <h4 className="text-xl font-semibold">EXO Arm</h4>
+            <p className="text-sm text-zinc-400">
+              Strength-enhancing arm system powered by ARC Core
+            </p>
+          </div>
+
         </div>
       </section>
     </div>
