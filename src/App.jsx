@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="min-h-screen bg-black text-white font-sans">
       {/* Header */}
-      <header className="bg-gradient-to-b from-zinc-900 to-black p-6 text-center shadow-md sticky top-0 z-50 relative">
+      <header className="bg-gradient-to-b from-zinc-900 to-black p-6 text-center shadow-md sticky top-0 z-50">
   <Link to="/" className="text-5xl font-extrabold tracking-wide hover:opacity-90">
     TAVRY LABS
   </Link>
@@ -47,7 +47,7 @@ function App() {
     <img
       src="/images/logo.jpeg"
       alt="Tavry Labs Logo"
-      className="w-40 h-40 object-contain rounded-full"
+      className="max-h-64 w-auto object-contain"
     />
   </div>
 </section>
