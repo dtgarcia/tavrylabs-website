@@ -30,20 +30,22 @@ function App() {
   </div>
 </header>
 
-<div className="w-full h-8 overflow-hidden relative -mt-3">
+{/*SVG*/}
+<div className="w-full h-10 overflow-hidden bg-transparent relative -mt-2">
   <svg
-    viewBox="0 0 100 20"
+    viewBox="0 0 200 20"
     preserveAspectRatio="none"
-    className="w-full h-full animate-draw-pulse"
+    className="absolute w-[200%] h-full animate-pulse-loop"
   >
     <polyline
       fill="none"
       stroke="#00CFFF"
       strokeWidth="1.5"
-      points="0,10 5,10 10,10 15,10 20,10 25,5 30,15 35,10 40,2 45,18 50,10 55,10 60,10 65,10 70,10 75,10 80,10 85,10 90,10 95,10 100,10"
+      points="0,10 10,10 15,5 20,15 25,10 35,10 40,2 45,18 50,10 60,10 70,10 80,10 90,10 95,5 100,15 105,10 115,10 120,2 125,18 130,10 140,10 150,10 160,10 170,10 180,10 190,10 200,10"
     />
   </svg>
 </div>
+
 
 
 

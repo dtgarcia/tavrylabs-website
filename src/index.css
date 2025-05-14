@@ -12,23 +12,18 @@
     );
   }
  
-  @keyframes drawPulse {
+  @keyframes pulseLoop {
     0% {
-      stroke-dasharray: 0, 200;
-      stroke-dashoffset: 0;
-    }
-    50% {
-      stroke-dasharray: 80, 120;
-      stroke-dashoffset: -20;
+      transform: translateX(0%);
     }
     100% {
-      stroke-dasharray: 0, 200;
-      stroke-dashoffset: -200;
+      transform: translateX(-50%);
     }
   }
   
-  .animate-draw-pulse {
-    animation: drawPulse 1.8s ease-in-out infinite;
+  .animate-pulse-loop {
+    animation: pulseLoop 2.5s linear infinite;
   }
+  
   
   
