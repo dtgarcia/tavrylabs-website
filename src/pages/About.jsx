@@ -20,7 +20,7 @@ function About() {
             I’m <span className="text-white font-semibold">Dallas Tavry Garcia</span>, an aspiring electrical engineer and the creator of <span className="text-white font-semibold">Tavry Labs</span> — a self-built engineering initiative where I turn complex ideas into functional technology.
           </p>
           <p className="text-lg text-zinc-400 mb-4">
-            From hand-layered <span className="text-white">epoxy guitar builds</span> and custom <span className="text-white">resin-based desk setups</span> to developing real-time <span className="text-white">diagnostic tools</span>, I focus on hands-on engineering that blends classroom theory with real-world results.
+            From hand-built <span className="text-white">epoxy guitar builds</span> and custom <span className="text-white"> led + resin-based desk setups</span> to developing real-time <span className="text-white">diagnostic tools</span>, I focus on hands-on engineering that blends classroom theory with real-world results.
           </p>
           <p className="text-lg text-zinc-400 mb-4">
             I take my education seriously — it’s the foundation of everything I’m building. Tavry Labs is how I bring that foundation to life: through projects that challenge me, teach me, and show the kind of engineer I’m becoming.
