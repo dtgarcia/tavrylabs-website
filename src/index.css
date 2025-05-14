@@ -12,17 +12,4 @@
     );
   }
  
-  @keyframes pulseLoopRight {
-    0% {
-      transform: translateX(-50%);
-    }
-    100% {
-      transform: translateX(0%);
-    }
-  }
-  
-  .animate-pulse-loop-right {
-    animation: pulseLoopRight 3s linear infinite;
-  }
-  
-  
+ 

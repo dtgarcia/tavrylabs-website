@@ -30,7 +30,7 @@ function App() {
   </div>
 </header>
 
-{/*SVG*/}
+{/*SVG
 <div className="w-full h-10 overflow-hidden bg-transparent relative -mt-2">
   <div className="absolute w-[200%] h-full animate-pulse-loop-right transform">
     <svg
@@ -59,7 +59,7 @@ function App() {
   </div>
 </div>
 
-
+*/}
 
 
 
