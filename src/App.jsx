@@ -28,11 +28,22 @@ function App() {
     </Link>
   </div>
 </header>
-<div className="w-full h-6 flex items-center justify-center overflow-hidden bg-transparent">
-  <div className="w-[300px] h-px relative bg-transparent">
-    <div className="absolute top-1/2 left-0 w-full h-1 animate-heartbeat bg-arcblue clip-heartbeat" />
-  </div>
+
+<div className="w-full h-10 flex items-center justify-center overflow-hidden bg-transparent">
+  <svg
+    viewBox="0 0 100 20"
+    preserveAspectRatio="none"
+    className="w-72 h-6 animate-draw-pulse"
+  >
+    <polyline
+      fill="none"
+      stroke="#00CFFF"
+      strokeWidth="2"
+      points="0,10 10,10 15,5 20,15 25,10 35,10 40,2 45,18 50,10 60,10 70,10 80,10 100,10"
+    />
+  </svg>
 </div>
+
 
 
 
