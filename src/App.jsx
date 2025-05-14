@@ -29,20 +29,21 @@ function App() {
   </div>
 </header>
 
-<div className="w-full h-10 flex items-center justify-center overflow-hidden bg-transparent">
+<div className="w-full h-8 overflow-hidden relative -mt-2">
   <svg
     viewBox="0 0 100 20"
     preserveAspectRatio="none"
-    className="w-72 h-6 animate-draw-pulse"
+    className="w-full h-full animate-draw-pulse"
   >
     <polyline
       fill="none"
       stroke="#00CFFF"
-      strokeWidth="2"
-      points="0,10 10,10 15,5 20,15 25,10 35,10 40,2 45,18 50,10 60,10 70,10 80,10 100,10"
+      strokeWidth="1.5"
+      points="0,10 5,10 10,10 15,10 20,10 25,5 30,15 35,10 40,2 45,18 50,10 55,10 60,10 65,10 70,10 75,10 80,10 85,10 90,10 95,10 100,10"
     />
   </svg>
 </div>
+
 
 
 
