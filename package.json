@@ -1,4 +1,3 @@
-
 {
   "name": "tavrylabs-website",
   "version": "0.0.1",
@@ -8,6 +7,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@vercel/analytics": "^1.5.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.20.1"

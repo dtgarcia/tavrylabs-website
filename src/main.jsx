@@ -8,6 +8,8 @@ import ArcCore from "./pages/ArcCore.jsx";
 import DaedalusAI from "./pages/DaedalusAI.jsx";
 import ExoArm from "./pages/ExoArm.jsx";
 import "./index.css";
+import { Analytics } from '@vercel/analytics/react';
+
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <BrowserRouter>
@@ -19,5 +21,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       <Route path="/projects/daedalus-ai" element={<DaedalusAI />} />
       <Route path="/projects/exo-arm" element={<ExoArm />} />
     </Routes>
+    <Analytics />
   </BrowserRouter>
 );
+
