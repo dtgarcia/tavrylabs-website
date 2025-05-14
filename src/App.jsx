@@ -29,7 +29,7 @@ function App() {
   </div>
 </header>
 
-<div className="w-full h-8 overflow-hidden relative -mt-2">
+<div className="w-full h-8 overflow-hidden relative -mt-3">
   <svg
     viewBox="0 0 100 20"
     preserveAspectRatio="none"
