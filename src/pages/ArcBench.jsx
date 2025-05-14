@@ -40,9 +40,31 @@ function ArcBench() {
             All core functions are complete. ARC Bench is now in the final stretch: refining the custom housing, securing internal layout and mounting, and preparing for final deployment and field testing.
           </p>
         </div>
+        {/* Engineering Drawing */}
+<div className="mt-12">
+  <img
+    src="/images/arc-page.jpeg"
+    alt="ARC Bench Housing Drawing"
+    className="w-full rounded shadow-md border border-zinc-700"
+  />
+  <p className="text-sm text-zinc-500 mt-2 text-center italic">Initial housing concept for ARC Bench V1 — designed for compact functionality and modular expansion.</p>
+</div>
+
 
         {/* Final Note */}
         <p className="text-sm text-zinc-500 italic mt-10">This project defines Tavry Labs: intelligent, field-ready, and built from raw ambition.</p>
+        {/* Founder's Note */}
+       <div className="mt-16 border-t border-zinc-700 pt-8">
+      <h2 className="text-2xl font-bold text-white mb-4">Founder's Note</h2>
+     <p className="text-zinc-400 text-lg leading-relaxed mb-4">
+    ARC Bench wasn’t just my first build — it was my spark. I hadn’t taken a single electrical engineering course when I started this. I didn’t want to wait until someone taught me how to light up an LED. I wanted to build something real. Something that could test, power, diagnose, and grow with me.
+      </p>
+     <p className="text-zinc-400 text-lg leading-relaxed mb-4">
+    This system became the proving ground for Tavry Labs — the moment I stopped waiting for opportunity and started creating it. Everything you see here was self-taught, from the dual microcontroller integration to the diagnostic logic to the housing design below.
+     </p>
+     <p className="text-zinc-500 italic text-sm">I built this before I was ever taught how to. That’s what makes it matter.</p>
+    </div>
+
       </div>
     </div>
   );
