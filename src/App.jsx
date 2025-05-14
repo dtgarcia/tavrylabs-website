@@ -28,6 +28,12 @@ function App() {
     </Link>
   </div>
 </header>
+<div className="w-full h-6 flex items-center justify-center overflow-hidden bg-transparent">
+  <div className="w-[300px] h-px relative bg-transparent">
+    <div className="absolute top-1/2 left-0 w-full h-1 animate-heartbeat bg-arcblue clip-heartbeat" />
+  </div>
+</div>
+
 
 
 {/* Hero Section */}

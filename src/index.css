@@ -11,4 +11,21 @@
       25% 93.3%, 0% 50%
     );
   }
+  @keyframes heartbeat {
+    0%,
+    100% {
+      clip-path: polygon(0% 50%, 20% 50%, 25% 30%, 30% 70%, 35% 20%, 40% 50%, 100% 50%);
+    }
+    50% {
+      clip-path: polygon(0% 50%, 20% 50%, 25% 20%, 30% 80%, 35% 10%, 40% 50%, 100% 50%);
+    }
+  }
+  
+  .animate-heartbeat {
+    animation: heartbeat 1.2s ease-in-out infinite;
+  }
+  
+  .clip-heartbeat {
+    clip-path: polygon(0% 50%, 20% 50%, 25% 30%, 30% 70%, 35% 20%, 40% 50%, 100% 50%);
+  }
   
