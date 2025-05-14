@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-[#0B1D24] via-black to-zinc-100/10 text-white font-sans">
       {/* Header */}
-      <header className="bg-gradient-to-b from-zinc-900 to-black p-6 text-center shadow-md sticky top-0 z-50">
+      <header className="bg-gradient-to-b from-[#0B1D24] to-black p-6 text-center shadow-md">
   <Link to="/" className="text-5xl font-extrabold tracking-wide hover:opacity-90">
     TAVRY LABS
   </Link>
