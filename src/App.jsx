@@ -47,7 +47,7 @@ function App() {
   <img
     src="/images/logo.jpeg"
     alt="Tavry Labs Logo"
-    className="w-full h-full object-cover translate-y-2"
+    className="w-full h-full object-cover translate-y-3"
   />
 </div>
 
