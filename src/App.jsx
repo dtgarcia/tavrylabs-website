@@ -52,7 +52,12 @@ function App() {
             <p className="text-sm text-zinc-400">Multi-functional diagnostics and testing bench</p>
           </div>
           <div className="bg-zinc-900 p-4 rounded shadow hover:shadow-lg">
-            <div className="w-full h-48 bg-zinc-800 rounded mb-4"></div>
+          <img
+  src="/images/arc-bench.jpeg"
+  alt="ARC Core"
+  className="w-full h-48 object-cover rounded mb-4"
+/>
+
             <h4 className="text-xl font-semibold">Tavry Core</h4>
             <p className="text-sm text-zinc-400">Wearable arc reactor-style power system</p>
           </div>
