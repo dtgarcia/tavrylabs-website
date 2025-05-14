@@ -8,11 +8,6 @@ function App() {
   <Link to="/" className="text-5xl font-extrabold tracking-wide hover:opacity-90">
     TAVRY LABS
   </Link>
-  <img
-    src="/images/logo.jpeg"
-    alt="Tavry Labs Logo"
-    className="absolute top-6 right-6 w-12 h-12 object-contain rounded"
-  />
   <p className="mt-2 text-lg text-zinc-400">
     Innovating the future, one system at a time.
   </p>
@@ -35,20 +30,28 @@ function App() {
 </header>
 
 
-      {/* Intro Section */}
-      <section className="flex flex-col md:flex-row items-center justify-between px-8 md:px-20 py-16 gap-8">
-        <div className="max-w-xl">
-          <h2 className="text-2xl font-bold mb-4">
-            Tavry Labs is where bold ideas meet raw-ambition.
-          </h2>
-          <p className="text-zinc-400 text-md">
-            Every system is built by a student learning as he goes, proving himself one system at a time.
-          </p>
-        </div>
-        <div>
-          <div className="w-80 h-80 bg-zinc-800 rounded-full" />
-        </div>
-      </section>
+{/* Hero Section */}
+<section className="flex flex-col md:flex-row items-center justify-between px-8 md:px-20 py-16 gap-8">
+  {/* Text Block */}
+  <div className="max-w-xl text-center md:text-left">
+    <h2 className="text-2xl md:text-3xl font-bold mb-4">
+      Tavry Labs is where bold ideas meet raw-ambition.
+    </h2>
+    <p className="text-zinc-400 text-md md:text-lg">
+      Every system is built by a student learning as he goes, proving himself one system at a time.
+    </p>
+  </div>
+
+  {/* Logo Bubble */}
+  <div className="w-80 h-80 bg-zinc-800 rounded-full flex items-center justify-center">
+    <img
+      src="/images/logo.jpeg"
+      alt="Tavry Labs Logo"
+      className="w-40 h-40 object-contain rounded-full"
+    />
+  </div>
+</section>
+
 
 {/* Projects Section */}
 <section id="projects" className="px-8 md:px-20 py-10">
