@@ -2,7 +2,8 @@ import { Link } from "react-router-dom";
 
 function App() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-[#0B1D24] via-black to-zinc-100/10 text-white font-sans">
+    <div className="min-h-screen bg-gradient-to-b from-black via-black to-zinc-100/10 text-white font-sans">
+
       {/* Header */}
       <header className="bg-gradient-to-b from-[#0B1D24] to-black p-6 text-center shadow-md">
   <Link to="/" className="text-5xl font-extrabold tracking-wide hover:opacity-90">
