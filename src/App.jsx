@@ -47,16 +47,13 @@ function App() {
   <img
     src="/images/logo.jpeg"
     alt="Tavry Labs Logo"
-    className="w-full h-full object-cover"
+    className="w-full h-full object-cover scale-95"
+    style={{ transformOrigin: "center center" }}
   />
 </div>
 
 
-
-
-
 </section>
-
 
 {/* Projects Section */}
 <section id="projects" className="px-8 md:px-20 py-10">
