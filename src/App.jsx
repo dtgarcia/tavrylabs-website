@@ -43,13 +43,14 @@ function App() {
   </div>
 
   {/* Logo Bubble */}
-  <div className="w-80 h-80 bg-zinc-800 rounded-full overflow-hidden flex items-center justify-center">
+  <div className="w-80 h-80 bg-zinc-800 clip-hexagon flex items-center justify-center overflow-hidden">
   <img
     src="/images/logo.jpeg"
     alt="Tavry Labs Logo"
-    className="h-full object-contain scale-110 -translate-y-1"
+    className="w-full h-full object-cover"
   />
 </div>
+
 
 
 
