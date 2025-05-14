@@ -1,13 +1,24 @@
+import React from "react";
+
 function ExoArm() {
-    return (
-      <div className="min-h-screen bg-black text-white px-6 py-16">
-        <h1 className="text-4xl font-bold mb-4">EXO Arm</h1>
-        <p className="text-lg text-zinc-400">
-          An experimental exoskeletal arm designed to enhance strength and control via AI + ARC power, at an affordable price.
-        </p>
-      </div>
-    );
-  }
-  
-  export default ExoArm;
-  
+  return (
+    <div className="min-h-screen bg-black text-white px-6 py-16 max-w-4xl mx-auto">
+      <h1 className="text-3xl md:text-4xl font-bold text-arcblue mb-4">
+        EXO Arm — Assistive Strength, Affordable Design
+      </h1>
+      <p className="text-red-400 font-semibold mb-6 uppercase">
+        Status: Research Phase
+      </p>
+
+      <p className="text-lg text-zinc-300 mb-4">
+        The EXO Arm project explores wearable mechatronics with the goal of strength augmentation and rehabilitative assistance — without sacrificing affordability. Designed primarily using 3D-printed <span className="text-white">ABS</span> and <span className="text-white">TPU</span> components, this arm will include embedded motors, mechanical linkages, and sensors for controlled motion.
+      </p>
+
+      <p className="text-lg text-zinc-300 mb-4">
+        When paired with the ARC Core, EXO Arm will be capable of <span className="text-white">kinetic energy recovery</span>, allowing physical movement to route power back into the main system. But its deeper mission is accessibility: creating a low-cost, expandable exoskeleton system that could one day assist with stroke rehabilitation and daily support.
+      </p>
+    </div>
+  );
+}
+
+export default ExoArm;
