@@ -43,7 +43,7 @@ function App() {
   </div>
 
   {/* Logo Bubble */}
-  <div className="w-80 h-80 bg-zinc-800 clip-hexagon flex items-center justify-center overflow-hidden">
+  <div className="w-80 h-80 bg-zinc-800 clip-hexagon flex items-center justify-center overflow-hidden border-4 border-arcblue shadow-[0_0_20px_#00CFFF] animate-pulse">
   <img
     src="/images/logo.jpeg"
     alt="Tavry Labs Logo"
@@ -51,6 +51,7 @@ function App() {
     style={{ transformOrigin: "center center" }}
   />
 </div>
+
 
 
 </section>
