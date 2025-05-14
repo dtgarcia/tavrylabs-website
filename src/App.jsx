@@ -32,11 +32,12 @@ function App() {
 
 {/*SVG*/}
 <div className="w-full h-10 overflow-hidden bg-transparent relative -mt-2">
-  <svg
-    viewBox="0 0 200 20"
-    preserveAspectRatio="none"
-    className="absolute w-[200%] h-full animate-pulse-loop"
-  >
+<svg
+  viewBox="0 0 200 20"
+  preserveAspectRatio="none"
+  className="absolute w-[200%] h-full transform animate-pulse-loop"
+>
+
     <polyline
       fill="none"
       stroke="#00CFFF"
