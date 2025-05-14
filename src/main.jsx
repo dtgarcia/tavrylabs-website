@@ -9,6 +9,7 @@ import DaedalusAI from "./pages/DaedalusAI.jsx";
 import ExoArm from "./pages/ExoArm.jsx";
 import "./index.css";
 import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 
 ReactDOM.createRoot(document.getElementById("root")).render(
@@ -22,6 +23,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       <Route path="/projects/exo-arm" element={<ExoArm />} />
     </Routes>
     <Analytics />
+    <SpeedInsights />
   </BrowserRouter>
 );
 
