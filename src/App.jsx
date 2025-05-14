@@ -12,21 +12,22 @@ function App() {
           Innovating the future, one system at a time.
         </p>
         <div className="mt-4 flex justify-center gap-4">
-          <button
-            onClick={() =>
-              document.getElementById("projects").scrollIntoView({ behavior: "smooth" })
-            }
-            className="bg-zinc-800 hover:bg-zinc-700 px-4 py-2 rounded shadow"
-          >
-            View Projects
-          </button>
-          <Link
-            to="/about"
-            className="bg-zinc-800 hover:bg-zinc-700 px-4 py-2 rounded shadow"
-          >
-            Meet Dallas
-          </Link>
-        </div>
+  <button
+    onClick={() =>
+      document.getElementById("projects").scrollIntoView({ behavior: "smooth" })
+    }
+    className="bg-zinc-800 px-4 py-2 rounded border border-transparent hover:border-arcblue hover:shadow-arc-glow transition-all duration-300"
+  >
+    View Projects
+  </button>
+  <Link
+    to="/about"
+    className="bg-zinc-800 px-4 py-2 rounded border border-transparent hover:border-arcblue hover:shadow-arc-glow transition-all duration-300"
+  >
+    Meet Dallas
+  </Link>
+</div>
+
       </header>
 
       {/* Intro Section */}
