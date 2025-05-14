@@ -45,65 +45,70 @@ function App() {
         </div>
       </section>
 
-      {/* Projects Section */}
-      <section id="projects" className="px-8 md:px-20 py-10">
-        <h3 className="text-3xl font-bold text-center mb-8">Projects</h3>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+{/* Projects Section */}
+<section id="projects" className="px-8 md:px-20 py-10">
+  <h3 className="text-3xl font-bold text-center mb-8">Projects</h3>
+  <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
 
-          {/* ARC Bench */}
-          <Link
-            to="/projects/arc-bench"
-            className="bg-zinc-900 p-4 rounded shadow-md border border-transparent hover:border-arcblue hover:shadow-arc-glow transition-all duration-300"
-          >
-            <img
-              src="/images/arc-bench.jpeg"
-              alt="ARC Bench"
-              className="w-full h-48 object-cover object-center rounded mb-4"
-            />
-            <h4 className="text-xl font-semibold">ARC Bench</h4>
-            <p className="text-sm text-zinc-400">
-              Custom-built power bench and housing prototype
-            </p>
-          </Link>
+    {/* ARC Bench */}
+    <Link
+      to="/projects/arc-bench"
+      className="bg-zinc-900 p-4 rounded shadow-md border border-transparent hover:border-arcblue hover:shadow-arc-glow transition-all duration-300"
+    >
+      <img
+        src="/images/arc-bench.jpeg"
+        alt="ARC Bench"
+        className="w-full h-48 object-cover object-center rounded mb-4"
+      />
+      <h4 className="text-xl font-semibold">ARC Bench</h4>
+      <span className="text-xs text-cyan-400 uppercase tracking-wide">V1 Build in Progress</span>
+      <p className="text-sm text-zinc-400 mt-2">
+        Custom-built power bench and housing prototype
+      </p>
+    </Link>
 
-          {/* ARC Core */}
-          <Link
-            to="/projects/arc-core"
-            className="bg-zinc-900 p-4 rounded shadow-md border border-transparent hover:border-arcblue hover:shadow-arc-glow transition-all duration-300"
-          >
-            <div className="w-full h-48 bg-zinc-800 rounded mb-4"></div>
-            <h4 className="text-xl font-semibold">ARC Core</h4>
-            <p className="text-sm text-zinc-400">
-              Advanced diagnostics + voltage test platform
-            </p>
-          </Link>
+    {/* ARC Core */}
+    <Link
+      to="/projects/arc-core"
+      className="bg-zinc-900 p-4 rounded shadow-md border border-transparent hover:border-arcblue hover:shadow-arc-glow transition-all duration-300"
+    >
+      <div className="w-full h-48 bg-zinc-800 rounded mb-4"></div>
+      <h4 className="text-xl font-semibold">ARC Core</h4>
+      <span className="text-xs text-yellow-400 uppercase tracking-wide">Prototyping</span>
+      <p className="text-sm text-zinc-400 mt-2">
+        Advanced diagnostics + voltage test platform
+      </p>
+    </Link>
 
-          {/* Daedalus AI */}
-          <Link
-            to="/projects/daedalus-ai"
-            className="bg-zinc-900 p-4 rounded shadow-md border border-transparent hover:border-arcblue hover:shadow-arc-glow transition-all duration-300"
-          >
-            <div className="w-full h-48 bg-zinc-800 rounded mb-4"></div>
-            <h4 className="text-xl font-semibold">Daedalus AI</h4>
-            <p className="text-sm text-zinc-400">
-              Core AI designed to unify and manage Tavry systems
-            </p>
-          </Link>
+    {/* Daedalus AI */}
+    <Link
+      to="/projects/daedalus-ai"
+      className="bg-zinc-900 p-4 rounded shadow-md border border-transparent hover:border-arcblue hover:shadow-arc-glow transition-all duration-300"
+    >
+      <div className="w-full h-48 bg-zinc-800 rounded mb-4"></div>
+      <h4 className="text-xl font-semibold">Daedalus AI</h4>
+      <span className="text-xs text-red-400 uppercase tracking-wide">Research</span>
+      <p className="text-sm text-zinc-400 mt-2">
+        Core AI designed to unify and manage Tavry systems
+      </p>
+    </Link>
 
-          {/* EXO Arm */}
-          <Link
-            to="/projects/exo-arm"
-            className="bg-zinc-900 p-4 rounded shadow-md border border-transparent hover:border-arcblue hover:shadow-arc-glow transition-all duration-300"
-          >
-            <div className="w-full h-48 bg-zinc-800 rounded mb-4"></div>
-            <h4 className="text-xl font-semibold">EXO Arm</h4>
-            <p className="text-sm text-zinc-400">
-              Strength-enhancing arm system powered by ARC Core
-            </p>
-          </Link>
+    {/* EXO Arm */}
+    <Link
+      to="/projects/exo-arm"
+      className="bg-zinc-900 p-4 rounded shadow-md border border-transparent hover:border-arcblue hover:shadow-arc-glow transition-all duration-300"
+    >
+      <div className="w-full h-48 bg-zinc-800 rounded mb-4"></div>
+      <h4 className="text-xl font-semibold">EXO Arm</h4>
+      <span className="text-xs text-red-400 uppercase tracking-wide">Research</span>
+      <p className="text-sm text-zinc-400 mt-2">
+        Strength-enhancing arm system powered by ARC Core
+      </p>
+    </Link>
 
-        </div>
-      </section>
+  </div>
+</section>
+
     </div>
   );
 }
