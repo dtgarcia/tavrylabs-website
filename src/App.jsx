@@ -50,7 +50,10 @@ function App() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
 
           {/* ARC Bench */}
-          <Link to="/projects/arc-bench" className="bg-zinc-900 p-4 rounded shadow hover:shadow-lg transition hover:scale-[1.01]">
+          <Link
+            to="/projects/arc-bench"
+            className="bg-zinc-900 p-4 rounded shadow-md border border-transparent hover:border-arcblue hover:shadow-arc-glow transition-all duration-300"
+          >
             <img
               src="/images/arc-bench.jpeg"
               alt="ARC Bench"
@@ -63,7 +66,10 @@ function App() {
           </Link>
 
           {/* ARC Core */}
-          <Link to="/projects/arc-core" className="bg-zinc-900 p-4 rounded shadow hover:shadow-lg transition hover:scale-[1.01]">
+          <Link
+            to="/projects/arc-core"
+            className="bg-zinc-900 p-4 rounded shadow-md border border-transparent hover:border-arcblue hover:shadow-arc-glow transition-all duration-300"
+          >
             <div className="w-full h-48 bg-zinc-800 rounded mb-4"></div>
             <h4 className="text-xl font-semibold">ARC Core</h4>
             <p className="text-sm text-zinc-400">
@@ -72,7 +78,10 @@ function App() {
           </Link>
 
           {/* Daedalus AI */}
-          <Link to="/projects/daedalus-ai" className="bg-zinc-900 p-4 rounded shadow hover:shadow-lg transition hover:scale-[1.01]">
+          <Link
+            to="/projects/daedalus-ai"
+            className="bg-zinc-900 p-4 rounded shadow-md border border-transparent hover:border-arcblue hover:shadow-arc-glow transition-all duration-300"
+          >
             <div className="w-full h-48 bg-zinc-800 rounded mb-4"></div>
             <h4 className="text-xl font-semibold">Daedalus AI</h4>
             <p className="text-sm text-zinc-400">
@@ -81,7 +90,10 @@ function App() {
           </Link>
 
           {/* EXO Arm */}
-          <Link to="/projects/exo-arm" className="bg-zinc-900 p-4 rounded shadow hover:shadow-lg transition hover:scale-[1.01]">
+          <Link
+            to="/projects/exo-arm"
+            className="bg-zinc-900 p-4 rounded shadow-md border border-transparent hover:border-arcblue hover:shadow-arc-glow transition-all duration-300"
+          >
             <div className="w-full h-48 bg-zinc-800 rounded mb-4"></div>
             <h4 className="text-xl font-semibold">EXO Arm</h4>
             <p className="text-sm text-zinc-400">
