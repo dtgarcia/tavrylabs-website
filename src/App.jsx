@@ -47,7 +47,7 @@ function App() {
     <img
       src="/images/logo.jpeg"
       alt="Tavry Labs Logo"
-      className="max-h-64 w-auto object-contain"
+     className="max-h-56 w-auto object-contain rounded-lg p-2"
     />
   </div>
 </section>
