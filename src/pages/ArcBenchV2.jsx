@@ -11,19 +11,19 @@ function ArcBenchV2() {
       </p>
 
       <p className="text-lg text-zinc-300 mb-4">
-        ARC Bench V2 is more than a successor — it's a full evolution. Building on the foundation of V1, this new iteration shifts from prototyping into true product-level engineering. It introduces **custom PCB design**, a responsive **touchscreen interface**, and a cleaner internal architecture to create a compact yet powerful test bench.
+        ARC Bench V2 is more than a successor — it's a full evolution. Building on the foundation of V1, this new iteration shifts from prototyping into true product-level engineering. It introduces custom PCB design, a responsive touchscreen interface, and a 4 cell battery core allowing for faster charging and more versatile power ouput to the test port.
       </p>
 
       <p className="text-lg text-zinc-300 mb-4">
-        The system will feature enhanced **power delivery management**, precision current sensing via upgraded INA238 sensors, and a new **dual-mode USB-C testing system** — one for output control, and one for voltage sense and measurement. These upgrades allow for clearer diagnostics, safer output control, and a far more intuitive user experience.
+        The system will feature enhanced power delivery management, precision current sensing via upgraded INA238 sensors, and a new dual-mode USB-C testing system — one for output control, and one for voltage sense and measurement. These upgrades allow for clearer diagnostics, safer output control, and a far more intuitive user experience.
       </p>
 
       <p className="text-lg text-zinc-300 mb-4">
-        ARC Bench V2 will also support **pass-through charging**, allowing it to remain fully functional even while recharging. This ensures it operates more like a field-ready tool and less like a hobbyist build. The enclosure will be redesigned with portability and heat distribution in mind, aiming to match the professionalism of industry-grade diagnostic gear.
+        ARC Bench V2 will also support pass-through charging, allowing it to remain fully functional even while recharging. This ensures it operates more like a field-ready tool and less like a hobbyist build. The enclosure will be redesigned for a more sleek and professional look, aiming to match the professionalism of industry-grade diagnostic gear.
       </p>
 
       <p className="text-lg text-zinc-300 mb-4">
-        Perhaps most importantly, this project marks Dallas' first step into **PCB design and layered circuit development**, transforming Tavry Labs from functional design to polished systems engineering.
+        Perhaps most importantly, this project marks my first step into PCB design and layered circuit development, transforming Tavry Labs from functional design to polished systems engineering.
       </p>
 
       <p className="text-sm text-zinc-500 italic mt-8">
