@@ -32,7 +32,6 @@ function Home() {
 
       {/* Hero Section */}
       <section className="flex flex-col md:flex-row items-center justify-between px-8 md:px-20 py-16 gap-8">
-        {/* Text Block */}
         <div className="max-w-xl text-center md:text-left">
           <h2 className="text-2xl md:text-3xl font-bold mb-4">
             Tavry Labs is where bold ideas meet raw-ambition.
@@ -42,7 +41,6 @@ function Home() {
           </p>
         </div>
 
-        {/* Logo Bubble */}
         <div className="w-80 h-80 bg-black clip-hexagon flex items-center justify-center overflow-hidden border-4 border-arcblue shadow-arc-glow animate-pulse">
           <img
             src="/images/logo.jpeg"
@@ -59,16 +57,9 @@ function Home() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
 
           {/* ARC Bench */}
-          <Link
-            to="/projects/arc-bench"
-            className="bg-zinc-900 p-4 rounded shadow-md border border-transparent hover:border-arcblue hover:shadow-arc-glow transition-all duration-300"
-          >
+          <Link to="/projects/arc-bench" className="bg-zinc-900 p-4 rounded shadow-md border border-transparent hover:border-arcblue hover:shadow-arc-glow transition-all duration-300">
             <div className="w-full aspect-[4/3] mb-4">
-              <img
-                src="/images/arc-bench.jpeg"
-                alt="ARC Bench"
-                className="w-full h-full object-cover rounded"
-              />
+              <img src="/images/arc-bench.jpeg" alt="ARC Bench" className="w-full h-full object-cover rounded" />
             </div>
             <h4 className="text-xl font-semibold">ARC Bench</h4>
             <span className="text-xs text-cyan-400 uppercase tracking-wide">V1 Build in Progress</span>
@@ -78,35 +69,21 @@ function Home() {
           </Link>
 
           {/* ARC Core */}
-          <Link
-            to="/projects/arc-core"
-            className="bg-zinc-900 p-4 rounded shadow-md border border-transparent hover:border-arcblue hover:shadow-arc-glow transition-all duration-300"
-          >
+          <Link to="/projects/arc-core" className="bg-zinc-900 p-4 rounded shadow-md border border-transparent hover:border-arcblue hover:shadow-arc-glow transition-all duration-300">
             <div className="w-full aspect-[4/3] mb-4">
-              <img
-                src="/images/arc-core.jpeg"
-                alt="ARC Core"
-                className="w-full h-full object-cover rounded"
-              />
+              <img src="/images/arc-core.jpeg" alt="ARC Core" className="w-full h-full object-cover rounded" />
             </div>
             <h4 className="text-xl font-semibold">ARC Core</h4>
-            <span className="text-xs text-yellow-400 uppercase tracking-wide">Prototyping</span>
+            <span className="text-xs text-yellow-400 uppercase tracking-wide">Research Concept</span>
             <p className="text-sm text-zinc-400 mt-2">
-              Advanced diagnostics + voltage test platform
+              Self-sustaining chest-mounted energy core concept with multi-phase generation
             </p>
           </Link>
 
           {/* Daedalus AI */}
-          <Link
-            to="/projects/daedalus-ai"
-            className="bg-zinc-900 p-4 rounded shadow-md border border-transparent hover:border-arcblue hover:shadow-arc-glow transition-all duration-300"
-          >
+          <Link to="/projects/daedalus-ai" className="bg-zinc-900 p-4 rounded shadow-md border border-transparent hover:border-arcblue hover:shadow-arc-glow transition-all duration-300">
             <div className="w-full aspect-[4/3] mb-4">
-              <img
-                src="/images/daedalus-ai.jpeg"
-                alt="Daedalus AI"
-                className="w-full h-full object-cover rounded"
-              />
+              <img src="/images/daedalus-ai.jpeg" alt="Daedalus AI" className="w-full h-full object-cover rounded" />
             </div>
             <h4 className="text-xl font-semibold">Daedalus AI</h4>
             <span className="text-xs text-red-400 uppercase tracking-wide">Research</span>
@@ -116,26 +93,31 @@ function Home() {
           </Link>
 
           {/* EXO Arm */}
-          <Link
-            to="/projects/exo-arm"
-            className="bg-zinc-900 p-4 rounded shadow-md border border-transparent hover:border-arcblue hover:shadow-arc-glow transition-all duration-300"
-          >
+          <Link to="/projects/exo-arm" className="bg-zinc-900 p-4 rounded shadow-md border border-transparent hover:border-arcblue hover:shadow-arc-glow transition-all duration-300">
             <div className="w-full aspect-[4/3] mb-4">
-              <img
-                src="/images/exo-arm.jpeg"
-                alt="EXO Arm"
-                className="w-full h-full object-cover rounded"
-              />
+              <img src="/images/exo-arm.jpeg" alt="EXO Arm" className="w-full h-full object-cover rounded" />
             </div>
             <h4 className="text-xl font-semibold">EXO Arm</h4>
             <span className="text-xs text-red-400 uppercase tracking-wide">Research</span>
             <p className="text-sm text-zinc-400 mt-2">
-              Strength-enhancing arm system powered by ARC Core
+              Strength-enhancing arm system developed for assistive motion
             </p>
           </Link>
+
+          {/* ARC Bench V2 */}
+          <Link to="/projects/arc-bench-v2" className="bg-zinc-900 p-4 rounded shadow-md border border-transparent hover:border-arcblue hover:shadow-arc-glow transition-all duration-300">
+            <div className="w-full aspect-[4/3] mb-4">
+              <img src="/images/arc-bench.jpeg" alt="ARC Bench V2" className="w-full h-full object-cover rounded" />
+            </div>
+            <h4 className="text-xl font-semibold">ARC Bench V2</h4>
+            <span className="text-xs text-cyan-400 uppercase tracking-wide">Planning</span>
+            <p className="text-sm text-zinc-400 mt-2">
+              Next-generation redesign of the ARC Bench for professional presentation
+            </p>
+          </Link>
+
         </div>
       </section>
-
     </div>
   );
 }

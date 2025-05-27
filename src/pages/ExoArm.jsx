@@ -15,7 +15,7 @@ function ExoArm() {
       </p>
 
       <p className="text-lg text-zinc-300 mb-4">
-        When paired with the ARC Core, EXO Arm will be capable of <span className="text-white">kinetic energy recovery</span>, allowing physical movement to route power back into the main system. But its deeper mission is accessibility: creating a low-cost, expandable exoskeleton system that could one day assist with stroke rehabilitation and daily support.
+        Although energy integration is on the horizon, EXO Arm is being developed independently as a proof-of-concept in motion control, embedded design, and assistive tech. Its deeper mission is accessibility: creating a low-cost, expandable exoskeleton system that could one day assist with stroke rehabilitation and daily support.
       </p>
     </div>
   );
