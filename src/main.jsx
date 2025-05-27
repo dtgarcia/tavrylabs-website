@@ -7,6 +7,7 @@ import ArcBench from "./pages/ArcBench.jsx";
 import ArcCore from "./pages/ArcCore.jsx";
 import DaedalusAI from "./pages/DaedalusAI.jsx";
 import ExoArm from "./pages/ExoArm.jsx";
+import ArcBenchV2 from "./pages/ArcBenchV2.jsx";
 import "./index.css";
 import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from "@vercel/speed-insights/react"
@@ -21,6 +22,8 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       <Route path="/projects/arc-core" element={<ArcCore />} />
       <Route path="/projects/daedalus-ai" element={<DaedalusAI />} />
       <Route path="/projects/exo-arm" element={<ExoArm />} />
+      <Route path="/projects/arc-bench-v2" element={<ArcBenchV2 />} />
+
     </Routes>
     <Analytics />
     <SpeedInsights />
