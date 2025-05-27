@@ -107,7 +107,7 @@ function Home() {
           {/* ARC Bench V2 */}
           <Link to="/projects/arc-bench-v2" className="bg-zinc-900 p-4 rounded shadow-md border border-transparent hover:border-arcblue hover:shadow-arc-glow transition-all duration-300">
             <div className="w-full aspect-[4/3] mb-4">
-              <img src="/images/arc-bench.jpeg" alt="ARC Bench V2" className="w-full h-full object-cover rounded" />
+              <img src="/images/V2.jpeg" alt="ARC Bench V2" className="w-full h-full object-cover rounded" />
             </div>
             <h4 className="text-xl font-semibold">ARC Bench V2</h4>
             <span className="text-xs text-cyan-400 uppercase tracking-wide">Planning</span>
