@@ -62,7 +62,7 @@ function Home() {
               <img src="/images/arc-bench.jpeg" alt="ARC Bench" className="w-full h-full object-cover rounded" />
             </div>
             <h4 className="text-xl font-semibold">ARC Bench</h4>
-            <span className="text-xs text-cyan-400 uppercase tracking-wide">V1 Build in Progress</span>
+            <span className="text-xs text-green-400 uppercase tracking-wide">V1 Build Complete</span>
             <p className="text-sm text-zinc-400 mt-2">
               Custom-built power bench and housing prototype
             </p>
