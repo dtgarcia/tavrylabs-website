@@ -1,32 +1,40 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import App from "./App";
-import About from "./pages/About.jsx";
-import ArcBench from "./pages/ArcBench.jsx";
-import ArcCore from "./pages/ArcCore.jsx";
-import DaedalusAI from "./pages/DaedalusAI.jsx";
-import ExoArm from "./pages/ExoArm.jsx";
-import ArcBenchV2 from "./pages/ArcBenchV2.jsx";
-import "./index.css";
-import { Analytics } from '@vercel/analytics/react';
-import { SpeedInsights } from "@vercel/speed-insights/react"
+import { BrowserRouter } from "react-router-dom";
 
+import App from "./App.jsx";
+import "./index.css";
+
+import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/react";
+
+/*
+ * ============================================================
+ * MAIN.JSX
+ * ============================================================
+ *
+ * This file only starts the React application.
+ *
+ * BrowserRouter allows the website to use URLs such as:
+ *
+ * /about
+ * /projects/tavry-fx
+ *
+ * The actual list of pages/routes now lives inside App.jsx.
+ *
+ * Keeping routing in one place makes the website much easier
+ * to maintain.
+ * ============================================================
+ */
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <BrowserRouter>
-    <Routes>
-      <Route path="/" element={<App />} />
-      <Route path="/about" element={<About />} />
-      <Route path="/projects/arc-bench" element={<ArcBench />} />
-      <Route path="/projects/arc-core" element={<ArcCore />} />
-      <Route path="/projects/daedalus-ai" element={<DaedalusAI />} />
-      <Route path="/projects/exo-arm" element={<ExoArm />} />
-      <Route path="/projects/arc-bench-v2" element={<ArcBenchV2 />} />
+  <React.StrictMode>
+    <BrowserRouter>
+      <App />
 
-    </Routes>
-    <Analytics />
-    <SpeedInsights />
-  </BrowserRouter>
+      {/* Vercel website analytics */}
+      <Analytics />
+      <SpeedInsights />
+    </BrowserRouter>
+  </React.StrictMode>
 );
-
