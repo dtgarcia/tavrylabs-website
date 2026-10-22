@@ -56,7 +56,6 @@ function Home() {
               About
             </Link>
 
-            {/* GitHub and Resume links can be added here later. */}
 
           </div>
 
@@ -242,10 +241,10 @@ function Home() {
 
 
             {/* ==================================================
-                PROJECT 02 — TAVRY FX V2
+                PROJECT 02 — ARC BENCH
                ================================================== */}
             <Link
-              to="/projects/tavry-fx-v2"
+              to="/projects/arc-bench"
               className="
                 group block
                 border-t border-zinc-800
@@ -263,145 +262,6 @@ function Home() {
 
                   <span className="font-mono text-sm text-zinc-600">
                     02
-                  </span>
-
-                </div>
-
-
-                {/* ------------------------------------------------
-                    TAVRY FX V2 TITLE CARD
-
-                    No fake render.
-                    No reused V1 image.
-                    No unfinished CAD.
-
-                    This remains until V2 has real engineering
-                    documentation worth showing.
-                   ------------------------------------------------ */}
-                <div className="md:col-span-5">
-
-                  <div
-                    className="
-                      relative
-                      aspect-[16/10]
-                      bg-zinc-950
-                      border
-                      border-zinc-800
-                      overflow-hidden
-                      group-hover:border-zinc-500
-                      transition-all
-                      duration-300
-                    "
-                  >
-
-                    {/* Subtle technical grid */}
-                    <div
-                      className="
-                        absolute
-                        inset-0
-                        opacity-[0.12]
-                        [background-image:linear-gradient(to_right,#71717a_1px,transparent_1px),linear-gradient(to_bottom,#71717a_1px,transparent_1px)]
-                        [background-size:32px_32px]
-                      "
-                    />
-
-
-                    {/* Top project label */}
-                    <div className="absolute top-5 left-5 right-5 flex items-center justify-between">
-
-                      <p className="font-mono text-xs text-zinc-600">
-                        PROJECT / 02
-                      </p>
-
-                      <p className="font-mono text-xs text-zinc-700">
-                        2026 —
-                      </p>
-
-                    </div>
-
-
-                    {/* Main title */}
-                    <div className="absolute inset-0 flex flex-col justify-center px-7 md:px-9">
-
-                      <p className="text-xs uppercase tracking-[0.24em] text-zinc-600 mb-3">
-                        Tavry Labs
-                      </p>
-
-                      <h3 className="text-4xl md:text-5xl font-semibold tracking-tight text-zinc-300 group-hover:text-white transition-colors duration-300">
-                        Tavry FX
-                      </h3>
-
-                      <h4 className="text-4xl md:text-5xl font-semibold tracking-tight text-zinc-600 group-hover:text-zinc-400 transition-colors duration-300">
-                        V2
-                      </h4>
-
-                    </div>
-
-
-                    {/* Bottom status bar */}
-                    <div className="absolute bottom-0 left-0 right-0 border-t border-zinc-800 px-5 py-4">
-
-                      <p className="font-mono text-xs uppercase tracking-[0.18em] text-amber-500/80">
-                        Design Study
-                      </p>
-
-                    </div>
-
-                  </div>
-
-                </div>
-
-
-                {/* Project information */}
-                <div className="md:col-span-6">
-
-                  <p className="text-xs uppercase tracking-[0.18em] text-amber-400 mb-4">
-                    Design Study
-                  </p>
-
-                  <h3 className="text-3xl font-semibold group-hover:text-white transition-colors duration-300">
-                    Tavry FX V2
-                  </h3>
-
-                  <p className="text-zinc-400 mt-4 leading-relaxed max-w-xl">
-                    A second-generation design study focused on the
-                    electrical, mechanical, and system-level improvements
-                    identified while building and testing Tavry FX V1.
-                  </p>
-
-                  <p className="font-mono text-xs text-zinc-600 mt-6">
-                    AUDIO · MECHANICAL · POWER · EMBEDDED SYSTEMS
-                  </p>
-
-                </div>
-
-              </div>
-
-            </Link>
-
-
-            {/* ==================================================
-                PROJECT 03 — ARC BENCH
-               ================================================== */}
-            <Link
-              to="/projects/arc-bench"
-              className="
-                group block
-                border-y border-zinc-800
-                py-10
-                transition-all duration-300
-                hover:border-zinc-500
-                hover:bg-white/[0.015]
-              "
-            >
-
-              <div className="grid md:grid-cols-12 gap-8 items-center">
-
-                {/* Project number */}
-                <div className="md:col-span-1">
-
-                  <span className="font-mono text-sm text-zinc-600">
-                    03
                   </span>
 
                 </div>
@@ -448,7 +308,7 @@ function Home() {
                     <div className="absolute top-5 left-5 right-5 flex items-center justify-between">
 
                       <p className="font-mono text-xs text-zinc-600">
-                        PROJECT / 03
+                        PROJECT / 02
                       </p>
 
                       <p className="font-mono text-xs text-zinc-700">
@@ -510,6 +370,145 @@ function Home() {
 
                   <p className="font-mono text-xs text-zinc-600 mt-6">
                     POWER ELECTRONICS · PCB DESIGN · INSTRUMENTATION · EMBEDDED SYSTEMS
+                  </p>
+
+                </div>
+
+              </div>
+
+            </Link>
+
+
+            {/* ==================================================
+                PROJECT 03 — TAVRY FX V2
+               ================================================== */}
+            <Link
+              to="/projects/tavry-fx-v2"
+              className="
+                group block
+                border-y border-zinc-800
+                py-10
+                transition-all duration-300
+                hover:border-zinc-500
+                hover:bg-white/[0.015]
+              "
+            >
+
+              <div className="grid md:grid-cols-12 gap-8 items-center">
+
+                {/* Project number */}
+                <div className="md:col-span-1">
+
+                  <span className="font-mono text-sm text-zinc-600">
+                    03
+                  </span>
+
+                </div>
+
+
+                {/* ------------------------------------------------
+                    TAVRY FX V2 TITLE CARD
+
+                    No fake render.
+                    No reused V1 image.
+                    No unfinished CAD.
+
+                    This remains until V2 has real engineering
+                    documentation worth showing.
+                   ------------------------------------------------ */}
+                <div className="md:col-span-5">
+
+                  <div
+                    className="
+                      relative
+                      aspect-[16/10]
+                      bg-zinc-950
+                      border
+                      border-zinc-800
+                      overflow-hidden
+                      group-hover:border-zinc-500
+                      transition-all
+                      duration-300
+                    "
+                  >
+
+                    {/* Subtle technical grid */}
+                    <div
+                      className="
+                        absolute
+                        inset-0
+                        opacity-[0.12]
+                        [background-image:linear-gradient(to_right,#71717a_1px,transparent_1px),linear-gradient(to_bottom,#71717a_1px,transparent_1px)]
+                        [background-size:32px_32px]
+                      "
+                    />
+
+
+                    {/* Top project label */}
+                    <div className="absolute top-5 left-5 right-5 flex items-center justify-between">
+
+                      <p className="font-mono text-xs text-zinc-600">
+                        PROJECT / 03
+                      </p>
+
+                      <p className="font-mono text-xs text-zinc-700">
+                        2026 —
+                      </p>
+
+                    </div>
+
+
+                    {/* Main title */}
+                    <div className="absolute inset-0 flex flex-col justify-center px-7 md:px-9">
+
+                      <p className="text-xs uppercase tracking-[0.24em] text-zinc-600 mb-3">
+                        Tavry Labs
+                      </p>
+
+                      <h3 className="text-4xl md:text-5xl font-semibold tracking-tight text-zinc-300 group-hover:text-white transition-colors duration-300">
+                        Tavry FX
+                      </h3>
+
+                      <h4 className="text-4xl md:text-5xl font-semibold tracking-tight text-zinc-600 group-hover:text-zinc-400 transition-colors duration-300">
+                        V2
+                      </h4>
+
+                    </div>
+
+
+                    {/* Bottom status bar */}
+                    <div className="absolute bottom-0 left-0 right-0 border-t border-zinc-800 px-5 py-4">
+
+                      <p className="font-mono text-xs uppercase tracking-[0.18em] text-amber-500/80">
+                        Design Study
+                      </p>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+
+                {/* Project information */}
+                <div className="md:col-span-6">
+
+                  <p className="text-xs uppercase tracking-[0.18em] text-amber-400 mb-4">
+                    Design Study
+                  </p>
+
+                  <h3 className="text-3xl font-semibold group-hover:text-white transition-colors duration-300">
+                    Tavry FX V2
+                  </h3>
+
+                  <p className="text-zinc-400 mt-4 leading-relaxed max-w-xl">
+                    A second-generation design study focused on the
+                    electrical, mechanical, and system-level improvements
+                    identified while building and testing Tavry FX V1.
+                  </p>
+
+                  <p className="font-mono text-xs text-zinc-600 mt-6">
+                    AUDIO · MECHANICAL · POWER · EMBEDDED SYSTEMS
                   </p>
 
                 </div>

@@ -676,7 +676,7 @@ function ArcBench() {
                 </p>
 
                 <h2 className="text-3xl md:text-4xl font-semibold tracking-tight">
-                  Currently in planning.
+                  Design in progress.
                 </h2>
 
               </div>
@@ -697,10 +697,70 @@ function ArcBench() {
                   removed if they add complexity without enough benefit.
                 </p>
 
+                {/* ==================================================
+                    FIRST DOCUMENTED ELECTRICAL DESIGN — 4S BMS
+
+                    This is an actual KiCad schematic, not a completed
+                    or hardware-validated PCB. Keep the status clear.
+                   ================================================== */}
+                <div className="pt-8">
+
+                  <p className="text-xs uppercase tracking-[0.18em] text-zinc-500 mb-4">
+                    01 / Electrical Design
+                  </p>
+
+                  <h3 className="text-2xl font-semibold text-zinc-100 tracking-tight mb-5">
+                    4S Battery Management System
+                  </h3>
+
+                  <p className="text-base text-zinc-400 leading-relaxed mb-5">
+                    One of the first electrical sections I worked on for
+                    the new ARC Bench is the battery management system.
+                    The planned pack uses four 21700 lithium-ion cells
+                    connected in series (4S1P), so the design needs to
+                    monitor the individual cell voltages rather than
+                    treating the pack as a single battery.
+                  </p>
+
+                  <p className="text-base text-zinc-400 leading-relaxed mb-5">
+                    I developed the initial schematic in KiCad around
+                    the Texas Instruments BQ76942 battery monitor. The
+                    design brings together cell-sense connections and
+                    filtering, a current-sense shunt, temperature-sensor
+                    inputs, charge and discharge FET control, and
+                    communication signals for the future embedded system.
+                  </p>
+
+                  <p className="text-base text-zinc-400 leading-relaxed mb-8">
+                    A large part of this work was understanding how the
+                    battery monitor connects to the cell stack, how pack
+                    current is measured, and how the protection circuitry
+                    fits between the battery and the rest of ARC Bench.
+                    The schematic is a design milestone, not a tested
+                    protection system; PCB layout, electrical review,
+                    assembly, and hardware validation are still ahead.
+                  </p>
+
+                  <figure>
+                    <div className="border border-zinc-800 bg-white p-2 md:p-4">
+                      <img
+                        src="/images/arc-bench/bms-schematic-v1.png"
+                        alt="KiCad schematic of the ARC Bench four-cell lithium-ion battery management system"
+                        className="block w-full h-auto object-contain"
+                        loading="lazy"
+                      />
+                    </div>
+                    <figcaption className="mt-3 text-xs text-zinc-500 leading-relaxed">
+                      Initial ARC Bench 4S BMS schematic in KiCad.
+                      Hardware testing and electrical validation pending.
+                    </figcaption>
+                  </figure>
+
+                </div>
+
                 <p>
                   As the project moves forward, this page will be updated
-                  with the actual engineering work: requirements,
-                  calculations, schematics, component decisions, PCB
+                  with the actual engineering work: calculations, PCB
                   layouts, CAD, prototypes, measurements, failures, and
                   revisions.
                 </p>

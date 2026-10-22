@@ -257,32 +257,7 @@ function About() {
                 </p>
 
               </div>
-
-
-              {/* ==================================================
-                  LINKS
-
-                  Replace "#" with the actual GitHub and resume links
-                  when those are ready.
-                 ================================================== */}
-              <div className="flex flex-wrap gap-4 mt-10">
-
-                <a
-                  href="#"
-                  className="border border-zinc-700 px-5 py-3 text-sm text-zinc-300 hover:border-zinc-500 hover:text-white transition-colors"
-                >
-                  GitHub
-                </a>
-
-                <a
-                  href="#"
-                  className="border border-zinc-700 px-5 py-3 text-sm text-zinc-300 hover:border-zinc-500 hover:text-white transition-colors"
-                >
-                  Resume
-                </a>
-
-              </div>
-
+              
             </div>
 
           </div>
